@@ -1,0 +1,22 @@
+.tag {
+    cursor: pointer;
+    background-color: #ddd;
+    height: 30px;
+    width: fit-content;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 0 10px 10px 0;
+    padding: 8px 12px 0px;
+
+    &.selected {
+        background-color: #71dfa2;
+    }
+    &.remove {
+        background-color: #e76d64;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

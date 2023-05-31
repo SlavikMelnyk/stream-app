@@ -1,0 +1,51 @@
+.playing-station {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #c2c2c2;
+    padding: 30px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+  
+.playing-station-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.playing-station h2 {
+    margin: 0 0 5px 0;
+    text-align: left;
+}
+  
+.playing-station-info {
+    display: inline-block;
+    max-width: calc(100vw - 220px);
+    margin-left: 15px;
+}
+.playing-station-info p {
+    margin-bottom: 5px;
+}
+  
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+.close-button:hover {
+    color: #333;
+}
+
+audio {
+    width: calc(100vw - 60px);
+}
